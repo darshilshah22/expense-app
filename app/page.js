@@ -1,6 +1,7 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import HeroSection from "@/components/Hero";
 
 export default function Home() {
-  return <Button variant="destructive">Welcome to Wealth</Button>;
+  return <div className="min-h-screen bg-white">
+    <HeroSection />
+  </div>;
 }
